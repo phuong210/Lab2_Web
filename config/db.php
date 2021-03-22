@@ -8,9 +8,9 @@
         session_start();
     }
 
-    $hostname = "localhost";
-    $username = "phpDB"; 
-    $password = "1234567890";
+    $hostname = "localhost:8080";
+    $username = "phuongmit"; 
+    $password = "Thuphuong210";
     $dbname = "auth";
     
     $connection = mysqli_connect($hostname, $username, $password, $dbname) or die("Database connection not established.")
